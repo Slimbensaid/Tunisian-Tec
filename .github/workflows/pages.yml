@@ -3,6 +3,7 @@ name: Pages
 on:
   push:
     branches: ['main']
+
 permissions:
   contents: read
   pages: write
@@ -25,7 +26,7 @@ jobs:
       - run: bundle exec jekyll build --baseurl '/Tunisian-Tec'
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: _site
   deploy:
     needs: build
     runs-on: ubuntu-latest
