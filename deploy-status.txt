@@ -1,4 +1,0 @@
-REPO: Slimbensaid/Tunisian-Tec
-PAGES: verify_in_github_ui
-BLOCKER: GitHub auth invalid/expired
-ACTION: reauth before publish
