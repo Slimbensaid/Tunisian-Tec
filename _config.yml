@@ -1,0 +1,10 @@
+title: Tunisian Tec
+description: Tutoriels tech pour débutants
+author: Slim Ben Said
+baseurl: "/Tunisian-Tec"
+url: ""
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
