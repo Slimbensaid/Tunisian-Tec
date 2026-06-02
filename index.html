@@ -1,0 +1,17 @@
+---
+layout: default
+title: Tunisian Tec
+---
+
+<div class="home">
+  <h1>Bienvenue sur Tunisian Tec</h1>
+  <p>Un blog de tutoriels tech pour débutants.</p>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>{{ post.date | date: "%d %B %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
